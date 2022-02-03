@@ -1,0 +1,28 @@
+﻿  main.cpp
+E:\Stack\Stack\main.cpp(37,1): error C2440: инициализация: невозможно преобразовать "T *" в "T"
+          with
+          [
+              T=int
+          ]
+E:\Stack\Stack\main.cpp(37,9): message : Не существует контекста, в котором такое преобразование возможно
+E:\Stack\Stack\main.cpp(36): message : во время компиляции функции-члена класс шаблон "void Stack<int>::push(T)"
+          with
+          [
+              T=int
+          ]
+E:\Stack\Stack\main.cpp(53): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Stack<int>::push(T)"
+          with
+          [
+              T=int
+          ]
+E:\Stack\Stack\main.cpp(51): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Stack<int>"
+E:\Stack\Stack\main.cpp(40,3): error C2100: недопустимое косвенное обращение
+E:\Stack\Stack\main.cpp(40,1): error C2106: =: левый операнд должен быть левосторонним значением
+E:\Stack\Stack\main.cpp(43,2): error C2100: недопустимое косвенное обращение
+E:\Stack\Stack\main.cpp(43,1): error C2106: =: левый операнд должен быть левосторонним значением
+E:\Stack\Stack\main.cpp(46,1): error C2440: =: невозможно преобразовать "T" в "T *"
+          with
+          [
+              T=int
+          ]
+E:\Stack\Stack\main.cpp(46,11): message : Для преобразования из целого типа в указатель требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
